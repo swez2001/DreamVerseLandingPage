@@ -1,0 +1,39 @@
+body {
+    background-color: #0D0A1D;
+    text-align: center;
+    width: auto;
+}
+
+.content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #BAECEB;
+}
+
+.content h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #BAECEB;
+}
+
+.bi-arrow-up {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #BAECEB;
+}
+.bi-arrow-down {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	color: #BAECEB;
+}
+.scrollbuttons {
+	position: fixed;
+	bottom: 35%;
+	left: 2%;
+	width: 50px;
+	height: 100px;
+	z-index: 13;
+}
