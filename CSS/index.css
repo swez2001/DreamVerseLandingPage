@@ -17,7 +17,7 @@ header.Navigation {
     float: right;
     margin-left: 300px;
 	margin-top: 10px;
-    background-color:  #02131D;
+    
 }
 
 .inline-block-logo {
@@ -47,10 +47,12 @@ header.Navigation {
     --bs-btn-font-weight: 500;
     --bs-btn-color: black;
     --bs-btn-bg: #BAECEB;
+    --bs-btn-hover-color: #BAECEB;
+    --bs-btn-hover-bg: #7D73B2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 35%;
-    padding: 19px 66px;
+    border-radius: 75%;
+    padding: 22px 33px;
   }
 
   h3 {
@@ -68,6 +70,7 @@ header.Navigation {
     display: block;
     height: 400px;
     margin-bottom: 10px;
+
 }
 .content h2 {
     font-family: 'Poppins', sans-serif;
@@ -90,6 +93,7 @@ header.Navigation {
     margin-right: 100px;
     margin-left: 10px;
     padding-left: 225px;
+    margin-top: 54px;
 }
 
 .sectiontwo {
