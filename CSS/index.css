@@ -283,6 +283,10 @@ margin-top: -60px;
         .inline-block{
              margin-left: 172px;
          }
+
+         .inline-block li {
+            display: block;
+         }
    
            .inline-block-logo img{
                height: 43px;
@@ -311,8 +315,6 @@ margin-top: -60px;
                margin-top: 23px;
              }
 
-             .content.one {
-                
-             }
+             
    
    }
