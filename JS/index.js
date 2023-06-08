@@ -21,5 +21,12 @@ $(document).ready(function(){
       target.addClass('active');
   
     });
+
+    // Change in state of nav bar
+    $(document).ready(function() {
+      $('.burgerMenu').click(function() {
+        $('ul.normalMenu').slideToggle();
+      });
+    });
     
   });

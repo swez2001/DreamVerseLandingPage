@@ -279,3 +279,40 @@ margin-top: -60px;
         background-color: #BAECEB;
         margin-bottom: 5px;
       }
+      @media only screen and (max-width:600px) {
+        .inline-block{
+             margin-left: 172px;
+         }
+   
+           .inline-block-logo img{
+               height: 43px;
+               vertical-align: top;
+               float: left;
+               display: block;
+           }
+           .logotext {
+            margin-left: 5px;
+        }
+       
+       
+            ul.normalMenu{
+               display: none;
+               float: center;
+               margin-left: -62px;
+               padding-left: 0px;
+             }
+   
+             ul.normalMenu li {
+               font-size: 20px;
+             }
+           
+             .burgerMenu {
+               display: flex;
+               margin-top: 23px;
+             }
+
+             .content.one {
+                
+             }
+   
+   }
