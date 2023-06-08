@@ -286,6 +286,7 @@ margin-top: -60px;
 
          .inline-block li {
             display: block;
+            text-align: center;
          }
    
            .inline-block-logo img{
@@ -313,6 +314,7 @@ margin-top: -60px;
              .burgerMenu {
                display: flex;
                margin-top: 23px;
+               margin-right: 381px;
              }
 
              
