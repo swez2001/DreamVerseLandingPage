@@ -49,6 +49,8 @@ header.Navigation {
     --bs-btn-bg: #BAECEB;
     --bs-btn-hover-color: #BAECEB;
     --bs-btn-hover-bg: #7D73B2;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #7D73B2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     border-radius: 75%;
@@ -280,42 +282,168 @@ margin-top: -60px;
         margin-bottom: 5px;
       }
       @media only screen and (max-width:600px) {
+        
+        body {
+            width: 600px;
+        }
+        
+        
         .inline-block{
-             margin-left: 172px;
+             
          }
 
          .inline-block li {
             display: block;
             text-align: center;
+            margin-left: 5px;
          }
    
            .inline-block-logo img{
-               height: 43px;
-               vertical-align: top;
-               float: left;
-               display: block;
+            height: 61px;
+            vertical-align: top;
+            float: left;
+            display: block;
+            margin-left: -66px;
+            margin-top: 9px;
            }
+
            .logotext {
-            margin-left: 5px;
+            margin-left: 0px;
+            margin-top: 31px;
         }
        
        
             ul.normalMenu{
-               display: none;
-               float: center;
-               margin-left: -62px;
-               padding-left: 0px;
+                text-align: left;
+                display: none;
+                float: center;
+                margin-right: -87px;
+                inline-size: -3px;
+
              }
    
              ul.normalMenu li {
-               font-size: 20px;
+               font-size: 16px;
              }
            
              .burgerMenu {
-               display: flex;
-               margin-top: 23px;
-               margin-right: 381px;
+                display: flex;
+                margin-top: -36px;
+                float: right;
+                margin-right: -29px;
              }
+
+             .btn.btn-primary {
+                padding: 11px 32px;
+                font-size: 13;
+             }
+
+             .sectionone {
+                margin-top: 166px;
+
+             }
+
+             .content.one {
+                padding-left: 119px;
+                inline-size: 506px;
+
+             }
+
+             .imgcontainer {
+                margin-right: 158px;
+                margin-top: -11px;
+             }
+
+             .firstimage {
+                width: 250px;
+             }
+
+             .sectiontwo {
+                margin-top: 166px;
+
+             }
+
+             .content.two {
+                padding-left: 2px;
+                inline-size: 506px;
+
+             }
+
+             .imgcontainer2 {
+                position: absolute;
+                top: 1002px;
+                margin-left: 45px;
+             }
+
+             .img02 {
+                width: 500px;
+             }
+
+             .content2headers {
+                margin-left: 35px;
+                position: absolute;
+                top: 835px;
+
+             }
+
+             .sectionthree {
+                margin-top: 166px;
+
+             }
+
+             .content.three {
+                padding-left: 2px;
+                inline-size: 506px;
+
+             }
+
+             .imgcontainer3 {
+                position: absolute;
+                top: 1534px;
+                margin-left: 41px;
+             }
+
+             .img03 {
+                width: 450px;
+             }
+
+             .content3headers {
+                margin-left: 102px;
+                margin-right: 69px;
+                position: absolute;
+                top: 1252px;
+
+             }
+
+             .Footer {
+                margin-left: 0px;
+                position: absolute;
+                width: 600px;
+                margin-top: 41px;
+             }
+
+             footer.Footer h2 {
+                margin-left: 0px;
+            }
+
+            #intouch {
+                margin-left: 69px;
+                inline-size: 460px;
+            }
+
+            .icons {
+                margin-left: -20px;
+            }
+
+            #copy {
+                margin-left: 13px;
+            }
+
+            .ExtraFoot {
+                margin-right: 0px;
+            }
+            
+            
 
              
    
