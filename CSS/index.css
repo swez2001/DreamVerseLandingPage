@@ -20,6 +20,11 @@ header.Navigation {
     
 }
 
+.normalMenu li:hover {
+    color: #7D73B2;
+    cursor: pointer;
+}
+
 .inline-block-logo {
     background-color:  #211A4A;
 }
@@ -287,10 +292,6 @@ margin-top: -60px;
             width: 600px;
         }
         
-        
-        .inline-block{
-             
-         }
 
          .inline-block li {
             display: block;
